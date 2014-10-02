@@ -1,0 +1,39 @@
+﻿<Window x:Class="TREX.HighTouchTradeView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="High Touch Trade" Height="210" Width="300" Background="DarkGray">
+    <Grid>
+        <Grid Width="250" Height="Auto" Margin="0,15,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.Resources>
+                <Style TargetType="{x:Type TextBox}">
+                    <Setter Property="Margin" Value="0,0,0,3" />
+                </Style>
+            </Grid.Resources>
+            <StackPanel Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,10">
+                <RadioButton Name="BuyRadio" GroupName="TradeOption" Content="Buy" IsChecked="{Binding Buy}" Foreground="White" Margin="0,0,10,0" Checked="BuyRadio_Checked"/>
+                <RadioButton Name="SellRadio" GroupName="TradeOption" Content="Sell" IsChecked="{Binding Sell}" Foreground="White" Margin="0,0,40,0" Checked="SellRadio_Checked"/>
+                <RadioButton Name="LongRadio" GroupName="PositionOption" Content="Long" IsChecked="True" Foreground="White" Margin="0,0,10,0" Checked="LongRadio_Checked"/>
+                <RadioButton Name="ShortRadio" GroupName="PositionOption" Content="Short" Foreground="White" Margin="0,0,10,0" Checked="ShortRadio_Checked"/>
+            </StackPanel>
+            <Label Grid.Row="1" Grid.Column="0" Content="Stock" Foreground="White"/>
+            <Label Name="StockLabel" Grid.Row="1" Grid.Column="1" Content="{Binding SelectedStock.NameSymbol}" Foreground="White" FontWeight="Bold"/>
+            <Label Grid.Row="2" Grid.Column="0" Content="Price" Foreground="White"/>
+            <TextBox Name="PriceTextBox" Grid.Row="2" Grid.Column="1" Text="{Binding SelectedStock.Bid}" TextChanged="PriceTextBox_TextChanged"/>
+            <Label Grid.Row="3" Grid.Column="0" Content="Size" Foreground="White"/>
+            <TextBox Name="SizeTextBox" Grid.Row="3" Grid.Column="1" TextChanged="SizeTextBox_TextChanged"/>
+            <Label Name="ErrorLabel" Grid.Row="4" Grid.Column="1" Foreground="Red" Padding="0"/>
+        </Grid>
+        <Button Name="ConfirmBtn" Content="Confirm" IsEnabled="False" Click="ConfirmBtn_Click" HorizontalAlignment="Left" Margin="207,145,0,0" VerticalAlignment="Top" Width="65"/>
+    </Grid>
+</Window>

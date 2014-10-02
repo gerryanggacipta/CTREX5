@@ -1,0 +1,13 @@
+C:\trex\TREX_DEV\TREX.Utilities\bin\Debug\TREX.Utilities.dll
+C:\trex\TREX_DEV\TREX.Utilities\bin\Debug\TREX.Utilities.pdb
+C:\trex\TREX_DEV\TREX.Utilities\bin\Debug\Apache.NMS.ActiveMQ.dll
+C:\trex\TREX_DEV\TREX.Utilities\bin\Debug\Apache.NMS.dll
+C:\trex\TREX_DEV\TREX.Utilities\bin\Debug\TREX.Common.dll
+C:\trex\TREX_DEV\TREX.Utilities\bin\Debug\TREX.DAL.dll
+C:\trex\TREX_DEV\TREX.Utilities\bin\Debug\TREX.Entities.dll
+C:\trex\TREX_DEV\TREX.Utilities\bin\Debug\TREX.Common.pdb
+C:\trex\TREX_DEV\TREX.Utilities\bin\Debug\TREX.DAL.pdb
+C:\trex\TREX_DEV\TREX.Utilities\bin\Debug\TREX.Entities.pdb
+C:\trex\TREX_DEV\TREX.Utilities\obj\Debug\TREX.Utilities.csprojResolveAssemblyReference.cache
+C:\trex\TREX_DEV\TREX.Utilities\obj\Debug\TREX.Utilities.dll
+C:\trex\TREX_DEV\TREX.Utilities\obj\Debug\TREX.Utilities.pdb

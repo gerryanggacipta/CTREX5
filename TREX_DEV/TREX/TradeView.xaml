@@ -1,0 +1,40 @@
+﻿<UserControl x:Class="TREX.TradeView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="970">
+    <Grid Margin="0">
+        <StackPanel>
+            <GroupBox Header="My Trades" Grid.Row="1" Height="560" Foreground="White" FontWeight="Bold" BorderThickness="0">
+                <GroupBox.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                        <GradientStop Color="#FF313336" Offset="1"/>
+                        <GradientStop Color="#FF7A7A7A"/>
+                        <GradientStop Color="#FF3B3E44" Offset="0.712"/>
+                        <GradientStop Color="{DynamicResource BlueGrayGradient}" Offset="0.417"/>
+                    </LinearGradientBrush>
+                </GroupBox.Background>
+                <DataGrid Name="MyTradesDataGrid" AutoGenerateColumns="False" ItemsSource="{Binding MyTrades}" Foreground="White" Background="Transparent" IsReadOnly="True" RowBackground="Transparent" BorderBrush="Transparent" GridLinesVisibility="None" HeadersVisibility="Column" VerticalScrollBarVisibility="Auto">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="ID" Binding="{Binding Id}" MinWidth="70"/>
+                        <DataGridTextColumn Header="StrategyID" Binding="{Binding StrategyID}" MinWidth="90"/>
+                        <DataGridTextColumn Header="Stock" Binding="{Binding Stock}" MinWidth="110"/>
+                        <DataGridTextColumn Header="Auto" Binding="{Binding Auto}" MinWidth="80"/>
+                        <DataGridTextColumn Header="Position" Binding="{Binding Position}" MinWidth="90"/>
+                        <DataGridTextColumn Header="Buy" Binding="{Binding Buy}" MinWidth="80"/>
+                        <DataGridTextColumn Header="Price" Binding="{Binding Price}" MinWidth="80"/>
+                        <DataGridTextColumn Header="Size" Binding="{Binding Size}" MinWidth="80"/>
+                        <DataGridTextColumn Header="WhenAsDate" Binding="{Binding WhenAsDate}" MinWidth="80"/>
+                    </DataGrid.Columns>
+                    <DataGrid.Resources>
+                        <Style TargetType="{x:Type DataGridColumnHeader}">
+                            <Setter Property="Background" Value="Transparent" />
+                        </Style>
+                    </DataGrid.Resources>
+                </DataGrid>
+            </GroupBox>
+        </StackPanel>
+    </Grid>
+</UserControl>

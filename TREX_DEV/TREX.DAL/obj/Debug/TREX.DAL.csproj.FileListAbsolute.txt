@@ -1,0 +1,9 @@
+C:\trex\TREX_DEV\TREX.DAL\bin\Debug\TREX.DAL.dll
+C:\trex\TREX_DEV\TREX.DAL\bin\Debug\TREX.DAL.pdb
+C:\trex\TREX_DEV\TREX.DAL\bin\Debug\TREX.Common.dll
+C:\trex\TREX_DEV\TREX.DAL\bin\Debug\TREX.Entities.dll
+C:\trex\TREX_DEV\TREX.DAL\bin\Debug\TREX.Common.pdb
+C:\trex\TREX_DEV\TREX.DAL\bin\Debug\TREX.Entities.pdb
+C:\trex\TREX_DEV\TREX.DAL\obj\Debug\TREX.DAL.csprojResolveAssemblyReference.cache
+C:\trex\TREX_DEV\TREX.DAL\obj\Debug\TREX.DAL.dll
+C:\trex\TREX_DEV\TREX.DAL\obj\Debug\TREX.DAL.pdb

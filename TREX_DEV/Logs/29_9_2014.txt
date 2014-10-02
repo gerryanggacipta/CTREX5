@@ -1,0 +1,22 @@
+29/9/2014 12:31:50 AM	: DATABASE ERROR: Incorrect syntax near 'auto'.
+29/9/2014 12:32:59 AM	: DATABASE ERROR: Incorrect syntax near 'auto'.
+29/9/2014 8:40:12 AM	: DATABASE ERROR: Incorrect syntax near 'auto'.
+29/9/2014 8:51:30 AM	: DATABASE ERROR: Incorrect syntax near 'auto'.
+29/9/2014 8:51:45 AM	: DATABASE ERROR: Incorrect syntax near 'auto'.
+29/9/2014 8:52:14 AM	: DATABASE ERROR: Incorrect syntax near 'auto'.
+29/9/2014 8:52:26 AM	: DATABASE ERROR: Incorrect syntax near 'auto'.
+29/9/2014 8:52:35 AM	: DATABASE ERROR: ExecuteNonQuery requires an open and available Connection. The connection's current state is closed.
+29/9/2014 8:52:35 AM	: Error in saving strategy configuration
+29/9/2014 8:52:40 AM	: DATABASE ERROR: Incorrect syntax near 'auto'.
+29/9/2014 8:55:52 AM	: DATABASE ERROR: Incorrect syntax near 'auto'.
+29/9/2014 8:56:18 AM	: DATABASE ERROR: ExecuteNonQuery requires an open and available Connection. The connection's current state is closed.
+29/9/2014 8:56:18 AM	: Error in saving strategy configuration
+29/9/2014 8:56:20 AM	: DATABASE ERROR: ExecuteNonQuery requires an open and available Connection. The connection's current state is closed.
+29/9/2014 8:56:20 AM	: Error in saving strategy configuration
+29/9/2014 8:56:27 AM	: DATABASE ERROR: Incorrect syntax near 'auto'.
+29/9/2014 9:20:30 AM	: There was an error accessing the URL.
+29/9/2014 9:45:23 AM	: There was an error accessing the URL.
+29/9/2014 9:45:45 AM	: There was an error accessing the URL.
+29/9/2014 10:12:19 AM	: DATABASE ERROR: Incorrect syntax near 'auto'.
+29/9/2014 10:15:39 AM	: DATABASE ERROR: Incorrect syntax near 'auto'.
+29/9/2014 9:05:23 PM	: There was an error accessing the URL.

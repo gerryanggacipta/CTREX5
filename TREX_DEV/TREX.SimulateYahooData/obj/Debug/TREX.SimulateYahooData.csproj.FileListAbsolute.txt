@@ -1,0 +1,16 @@
+C:\Project\trex\TREX_DEV\TREX.SimulateYahooData\bin\Debug\TREX.SimulateYahooData.exe.config
+C:\Project\trex\TREX_DEV\TREX.SimulateYahooData\bin\Debug\TREX.SimulateYahooData.exe
+C:\Project\trex\TREX_DEV\TREX.SimulateYahooData\bin\Debug\TREX.SimulateYahooData.pdb
+C:\Project\trex\TREX_DEV\TREX.SimulateYahooData\bin\Debug\TREX.Common.dll
+C:\Project\trex\TREX_DEV\TREX.SimulateYahooData\bin\Debug\TREX.Utilities.dll
+C:\Project\trex\TREX_DEV\TREX.SimulateYahooData\bin\Debug\TREX.Entities.dll
+C:\Project\trex\TREX_DEV\TREX.SimulateYahooData\bin\Debug\Apache.NMS.dll
+C:\Project\trex\TREX_DEV\TREX.SimulateYahooData\bin\Debug\TREX.DAL.dll
+C:\Project\trex\TREX_DEV\TREX.SimulateYahooData\bin\Debug\Apache.NMS.ActiveMQ.dll
+C:\Project\trex\TREX_DEV\TREX.SimulateYahooData\bin\Debug\TREX.Common.pdb
+C:\Project\trex\TREX_DEV\TREX.SimulateYahooData\bin\Debug\TREX.Utilities.pdb
+C:\Project\trex\TREX_DEV\TREX.SimulateYahooData\bin\Debug\TREX.Entities.pdb
+C:\Project\trex\TREX_DEV\TREX.SimulateYahooData\bin\Debug\TREX.DAL.pdb
+C:\Project\trex\TREX_DEV\TREX.SimulateYahooData\obj\Debug\TREX.SimulateYahooData.csprojResolveAssemblyReference.cache
+C:\Project\trex\TREX_DEV\TREX.SimulateYahooData\obj\Debug\TREX.SimulateYahooData.exe
+C:\Project\trex\TREX_DEV\TREX.SimulateYahooData\obj\Debug\TREX.SimulateYahooData.pdb
