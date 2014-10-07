@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\trex\TREX_DEV\TREX\obj\Debug\
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX\obj\Debug\
 TREX
 none
 false
 DEBUG;TRACE
-C:\trex\TREX_DEV\TREX\App.xaml
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX\App.xaml
 71321960596
 
 172113460158
-24-1295797730
+24-292816369
 MainWindow.xaml;HighTouchTradeView.xaml;MarketDataView.xaml;PerformanceView.xaml;PortfolioView.xaml;StrategyView.xaml;TradeView.xaml;
 
 False

@@ -3,3 +3,8 @@ C:\trex\TREX_DEV\TREX.Entities\bin\Debug\TREX.Entities.pdb
 C:\trex\TREX_DEV\TREX.Entities\obj\Debug\TREX.Entities.csprojResolveAssemblyReference.cache
 C:\trex\TREX_DEV\TREX.Entities\obj\Debug\TREX.Entities.dll
 C:\trex\TREX_DEV\TREX.Entities\obj\Debug\TREX.Entities.pdb
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.Entities\bin\Debug\TREX.Entities.dll
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.Entities\bin\Debug\TREX.Entities.pdb
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.Entities\obj\Debug\TREX.Entities.csprojResolveAssemblyReference.cache
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.Entities\obj\Debug\TREX.Entities.dll
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.Entities\obj\Debug\TREX.Entities.pdb

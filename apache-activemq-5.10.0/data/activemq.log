@@ -64,3 +64,542 @@
 2014-09-30 08:18:20,551 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
 2014-09-30 08:18:20,815 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | WrapperSimpleAppMain
 2014-09-30 08:18:21,759 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | WrapperSimpleAppMain
+2014-10-07 00:31:50,624 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@5d7e06: startup date [Tue Oct 07 00:31:50 SGT 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2014-10-07 00:31:52,582 | INFO  | PListStore:[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2014-10-07 00:31:52,611 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2014-10-07 00:31:53,406 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 00:31:53,451 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 00:31:53,456 | INFO  | Recovery replayed 7 operations from the journal in 0.04 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 00:31:53,653 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-62973-1412613113506-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2014-10-07 00:31:53,761 | INFO  | Listening for connections at: tcp://gerrypc:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 00:31:53,764 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 00:31:53,770 | INFO  | Listening for connections at: amqp://gerrypc:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 00:31:53,772 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 00:31:53,777 | INFO  | Listening for connections at: stomp://gerrypc:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 00:31:53,779 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 00:31:53,784 | INFO  | Listening for connections at: mqtt://gerrypc:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 00:31:53,786 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 00:31:54,792 | INFO  | Listening for connections at ws://gerrypc:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2014-10-07 00:31:54,794 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 00:31:54,799 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-62973-1412613113506-0:1) started | org.apache.activemq.broker.BrokerService | main
+2014-10-07 00:31:54,807 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2014-10-07 00:31:55,613 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2014-10-07 00:31:55,715 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2014-10-07 00:31:56,378 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
+2014-10-07 00:35:01,042 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-62973-1412613113506-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2014-10-07 00:35:01,053 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-10-07 00:35:01,057 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-10-07 00:35:01,062 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-10-07 00:35:01,067 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-10-07 00:35:01,140 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-10-07 00:35:01,161 | INFO  | PListStore:[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2014-10-07 00:35:01,164 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2014-10-07 00:35:01,168 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2014-10-07 00:35:01,174 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2014-10-07 00:35:01,433 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-62973-1412613113506-0:1) uptime 3 minutes | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2014-10-07 00:35:01,438 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-62973-1412613113506-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2014-10-07 00:35:01,442 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@5d7e06: startup date [Tue Oct 07 00:31:50 SGT 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2014-10-07 00:35:01,482 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | ActiveMQ ShutdownHook
+2014-10-07 00:35:26,872 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@5d7e06: startup date [Tue Oct 07 00:35:26 SGT 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2014-10-07 00:35:29,774 | INFO  | PListStore:[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2014-10-07 00:35:29,882 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2014-10-07 00:35:32,006 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 00:35:32,108 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 00:35:32,135 | INFO  | Recovery replayed 38 operations from the journal in 0.084 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 00:35:32,435 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63052-1412613332246-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2014-10-07 00:35:32,720 | INFO  | Listening for connections at: tcp://gerrypc:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 00:35:32,727 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 00:35:32,745 | INFO  | Listening for connections at: amqp://gerrypc:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 00:35:32,752 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 00:35:32,769 | INFO  | Listening for connections at: stomp://gerrypc:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 00:35:32,777 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 00:35:32,792 | INFO  | Listening for connections at: mqtt://gerrypc:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 00:35:32,799 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 00:35:33,340 | INFO  | Listening for connections at ws://gerrypc:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2014-10-07 00:35:33,344 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 00:35:33,357 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63052-1412613332246-0:1) started | org.apache.activemq.broker.BrokerService | main
+2014-10-07 00:35:33,365 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2014-10-07 00:35:34,535 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2014-10-07 00:35:34,755 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2014-10-07 00:35:35,964 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
+2014-10-07 00:57:49,402 | WARN  | Transport Connection to: tcp://127.0.0.1:63314 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:63314@61616
+2014-10-07 00:58:42,588 | WARN  | Transport Connection to: tcp://127.0.0.1:63323 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:63323@61616
+2014-10-07 00:58:55,152 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63052-1412613332246-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2014-10-07 00:58:55,161 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-10-07 00:58:55,166 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-10-07 00:58:55,172 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-10-07 00:58:55,176 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-10-07 00:58:55,269 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-10-07 00:58:55,282 | INFO  | PListStore:[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2014-10-07 00:58:55,285 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2014-10-07 00:58:55,288 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2014-10-07 00:58:55,292 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2014-10-07 00:58:55,506 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63052-1412613332246-0:1) uptime 23 minutes | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2014-10-07 00:58:55,511 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63052-1412613332246-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2014-10-07 00:58:55,515 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@5d7e06: startup date [Tue Oct 07 00:35:26 SGT 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2014-10-07 00:58:55,550 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | ActiveMQ ShutdownHook
+2014-10-07 01:00:15,814 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@1fcbc19: startup date [Tue Oct 07 01:00:15 SGT 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2014-10-07 01:00:18,663 | INFO  | PListStore:[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2014-10-07 01:00:18,769 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:00:20,745 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 01:00:20,848 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 01:00:20,927 | INFO  | Recovery replayed 280 operations from the journal in 0.144 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 01:00:21,200 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63327-1412614821015-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:00:21,459 | INFO  | Listening for connections at: tcp://gerrypc:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:00:21,465 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:00:21,481 | INFO  | Listening for connections at: amqp://gerrypc:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:00:21,486 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:00:21,500 | INFO  | Listening for connections at: stomp://gerrypc:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:00:21,506 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:00:21,520 | INFO  | Listening for connections at: mqtt://gerrypc:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:00:21,526 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:00:21,941 | INFO  | Listening for connections at ws://gerrypc:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2014-10-07 01:00:21,945 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:00:21,956 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63327-1412614821015-0:1) started | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:00:21,961 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:00:23,046 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2014-10-07 01:00:23,242 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2014-10-07 01:00:24,419 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
+2014-10-07 01:00:44,322 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63327-1412614821015-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-27
+2014-10-07 01:00:44,325 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-27
+2014-10-07 01:00:44,326 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-27
+2014-10-07 01:00:44,328 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-27
+2014-10-07 01:00:44,329 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-27
+2014-10-07 01:00:44,395 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-27
+2014-10-07 01:00:44,399 | INFO  | PListStore:[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-27
+2014-10-07 01:00:44,399 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-27
+2014-10-07 01:00:44,400 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-27
+2014-10-07 01:00:44,402 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-27
+2014-10-07 01:00:44,457 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63327-1412614821015-0:1) uptime 25.757 seconds | org.apache.activemq.broker.BrokerService | Thread-27
+2014-10-07 01:00:44,459 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63327-1412614821015-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-27
+2014-10-07 01:00:44,460 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@1fcbc19: startup date [Tue Oct 07 01:00:15 SGT 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-27
+2014-10-07 01:00:44,479 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | Thread-27
+2014-10-07 01:01:07,008 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@1fcbc19: startup date [Tue Oct 07 01:01:06 SGT 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2014-10-07 01:01:09,805 | INFO  | PListStore:[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2014-10-07 01:01:09,923 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:01:11,945 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 01:01:12,037 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 01:01:12,054 | INFO  | Recovery replayed 5 operations from the journal in 0.071 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 01:01:12,330 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63336-1412614872145-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:01:12,593 | INFO  | Listening for connections at: tcp://gerrypc:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:01:12,600 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:01:12,616 | INFO  | Listening for connections at: amqp://gerrypc:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:01:12,622 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:01:12,637 | INFO  | Listening for connections at: stomp://gerrypc:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:01:12,643 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:01:12,658 | INFO  | Listening for connections at: mqtt://gerrypc:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:01:12,663 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:01:13,070 | INFO  | Listening for connections at ws://gerrypc:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2014-10-07 01:01:13,074 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:01:13,087 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63336-1412614872145-0:1) started | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:01:13,091 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:01:14,257 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2014-10-07 01:01:14,475 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2014-10-07 01:01:15,665 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
+2014-10-07 01:01:45,168 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@7c7fc2: startup date [Tue Oct 07 01:01:45 SGT 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2014-10-07 01:01:48,030 | INFO  | PListStore:[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2014-10-07 01:01:48,138 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:01:50,081 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 01:01:50,744 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 01:01:50,768 | INFO  | Recovery replayed 2 operations from the journal in 0.078 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 01:01:51,050 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63346-1412614910862-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:01:51,332 | INFO  | Listening for connections at: tcp://gerrypc:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:01:51,338 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:01:51,355 | INFO  | Listening for connections at: amqp://gerrypc:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:01:51,361 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:01:51,376 | INFO  | Listening for connections at: stomp://gerrypc:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:01:51,383 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:01:51,398 | INFO  | Listening for connections at: mqtt://gerrypc:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:01:51,403 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:01:51,802 | INFO  | Listening for connections at ws://gerrypc:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2014-10-07 01:01:51,806 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:01:51,820 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63346-1412614910862-0:1) started | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:01:51,825 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:01:52,911 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2014-10-07 01:01:53,110 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2014-10-07 01:01:54,265 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
+2014-10-07 01:02:14,912 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63346-1412614910862-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2014-10-07 01:02:14,920 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-10-07 01:02:14,925 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-10-07 01:02:14,929 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-10-07 01:02:14,933 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-10-07 01:02:15,007 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-10-07 01:02:15,020 | INFO  | PListStore:[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2014-10-07 01:02:15,023 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2014-10-07 01:02:15,026 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2014-10-07 01:02:15,031 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2014-10-07 01:02:15,213 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63346-1412614910862-0:1) uptime 27.143 seconds | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2014-10-07 01:02:15,217 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63346-1412614910862-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2014-10-07 01:02:15,221 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@7c7fc2: startup date [Tue Oct 07 01:01:45 SGT 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2014-10-07 01:02:15,265 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | ActiveMQ ShutdownHook
+2014-10-07 01:03:42,510 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@1fcbc19: startup date [Tue Oct 07 01:03:42 SGT 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2014-10-07 01:03:45,537 | INFO  | PListStore:[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2014-10-07 01:03:45,639 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:03:47,544 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 01:03:47,635 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 01:03:47,651 | INFO  | Recovery replayed 5 operations from the journal in 0.07 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 01:03:47,923 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63355-1412615027737-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:03:48,183 | INFO  | Listening for connections at: tcp://gerrypc:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:03:48,189 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:03:48,205 | INFO  | Listening for connections at: amqp://gerrypc:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:03:48,210 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:03:48,224 | INFO  | Listening for connections at: stomp://gerrypc:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:03:48,230 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:03:48,245 | INFO  | Listening for connections at: mqtt://gerrypc:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:03:48,250 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:03:48,649 | INFO  | Listening for connections at ws://gerrypc:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2014-10-07 01:03:48,653 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:03:48,663 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63355-1412615027737-0:1) started | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:03:48,668 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:03:49,863 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2014-10-07 01:03:50,067 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2014-10-07 01:03:51,215 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
+2014-10-07 01:06:41,990 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@1a7d653: startup date [Tue Oct 07 01:06:41 SGT 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2014-10-07 01:06:45,097 | INFO  | PListStore:[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2014-10-07 01:06:45,203 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:06:47,081 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 01:06:47,171 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 01:06:47,187 | INFO  | Recovery replayed 5 operations from the journal in 0.069 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 01:06:47,460 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63367-1412615207276-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:06:47,724 | INFO  | Listening for connections at: tcp://gerrypc:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:06:47,730 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:06:47,746 | INFO  | Listening for connections at: amqp://gerrypc:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:06:47,752 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:06:47,768 | INFO  | Listening for connections at: stomp://gerrypc:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:06:47,775 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:06:47,789 | INFO  | Listening for connections at: mqtt://gerrypc:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:06:47,795 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:06:48,312 | INFO  | Listening for connections at ws://gerrypc:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2014-10-07 01:06:48,316 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:06:48,325 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63367-1412615207276-0:1) started | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:06:48,329 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:06:49,440 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2014-10-07 01:06:49,634 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2014-10-07 01:06:50,771 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
+2014-10-07 01:08:24,646 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63367-1412615207276-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-27
+2014-10-07 01:08:24,649 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-27
+2014-10-07 01:08:24,651 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-27
+2014-10-07 01:08:24,652 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-27
+2014-10-07 01:08:24,654 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-27
+2014-10-07 01:08:24,721 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-27
+2014-10-07 01:08:24,726 | INFO  | PListStore:[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-27
+2014-10-07 01:08:24,727 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-27
+2014-10-07 01:08:24,728 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-27
+2014-10-07 01:08:24,731 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-27
+2014-10-07 01:08:25,160 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63367-1412615207276-0:1) uptime 1 minute | org.apache.activemq.broker.BrokerService | Thread-27
+2014-10-07 01:08:25,162 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63367-1412615207276-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-27
+2014-10-07 01:08:25,164 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@1a7d653: startup date [Tue Oct 07 01:06:41 SGT 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-27
+2014-10-07 01:08:25,186 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | Thread-27
+2014-10-07 01:09:14,075 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@1fcbc19: startup date [Tue Oct 07 01:09:14 SGT 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2014-10-07 01:10:03,242 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@116674: startup date [Tue Oct 07 01:10:03 SGT 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2014-10-07 01:10:03,995 | INFO  | PListStore:[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2014-10-07 01:10:04,024 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:10:04,545 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 01:10:04,570 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 01:10:04,575 | INFO  | Recovery replayed 20 operations from the journal in 0.02 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 01:10:04,721 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63412-1412615404598-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:10:04,793 | INFO  | Listening for connections at: tcp://gerrypc:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:10:04,795 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:10:04,800 | INFO  | Listening for connections at: amqp://gerrypc:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:10:04,803 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:10:04,809 | INFO  | Listening for connections at: stomp://gerrypc:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:10:04,811 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:10:04,815 | INFO  | Listening for connections at: mqtt://gerrypc:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:10:04,817 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:10:04,926 | INFO  | Listening for connections at ws://gerrypc:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2014-10-07 01:10:04,927 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:10:04,930 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63412-1412615404598-0:1) started | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:10:04,932 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:10:05,233 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2014-10-07 01:10:05,287 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2014-10-07 01:10:05,559 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
+2014-10-07 01:10:25,344 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@7c7fc2: startup date [Tue Oct 07 01:10:25 SGT 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2014-10-07 01:10:28,140 | INFO  | PListStore:[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2014-10-07 01:10:28,245 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:10:30,118 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 01:10:30,210 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 01:10:30,232 | INFO  | Recovery replayed 21 operations from the journal in 0.077 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 01:10:30,499 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63418-1412615430315-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:10:30,765 | INFO  | Listening for connections at: tcp://gerrypc:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:10:30,772 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:10:30,789 | INFO  | Listening for connections at: amqp://gerrypc:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:10:30,794 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:10:30,812 | INFO  | Listening for connections at: stomp://gerrypc:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:10:30,817 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:10:30,832 | INFO  | Listening for connections at: mqtt://gerrypc:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:10:30,837 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:10:31,242 | INFO  | Listening for connections at ws://gerrypc:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2014-10-07 01:10:31,247 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:10:31,260 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63418-1412615430315-0:1) started | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:10:31,266 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:10:32,363 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2014-10-07 01:10:32,556 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2014-10-07 01:10:33,721 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
+2014-10-07 01:11:01,172 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@1a7d653: startup date [Tue Oct 07 01:11:01 SGT 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2014-10-07 01:11:04,095 | INFO  | PListStore:[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2014-10-07 01:11:04,236 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:11:06,278 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 01:11:06,372 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 01:11:06,396 | INFO  | Recovery replayed 24 operations from the journal in 0.08 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 01:11:06,665 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63424-1412615466480-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:11:06,932 | INFO  | Listening for connections at: tcp://gerrypc:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:11:06,938 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:11:06,956 | INFO  | Listening for connections at: amqp://gerrypc:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:11:06,962 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:11:06,976 | INFO  | Listening for connections at: stomp://gerrypc:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:11:06,982 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:11:06,996 | INFO  | Listening for connections at: mqtt://gerrypc:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:11:07,002 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:11:07,410 | INFO  | Listening for connections at ws://gerrypc:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2014-10-07 01:11:07,413 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:11:07,423 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63424-1412615466480-0:1) started | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:11:07,429 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:11:08,587 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2014-10-07 01:11:08,786 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2014-10-07 01:11:10,036 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
+2014-10-07 01:11:23,039 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@7c7fc2: startup date [Tue Oct 07 01:11:23 SGT 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2014-10-07 01:11:26,106 | INFO  | PListStore:[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2014-10-07 01:11:26,213 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:11:26,238 | INFO  | Database C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\kahadb\lock is locked... waiting 10 seconds for the database to be unlocked. Reason: java.io.IOException: File 'C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\kahadb\lock' could not be locked. | org.apache.activemq.store.SharedFileLocker | main
+2014-10-07 01:11:36,257 | INFO  | Database C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\kahadb\lock is locked... waiting 10 seconds for the database to be unlocked. Reason: java.io.IOException: File 'C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\kahadb\lock' could not be locked. | org.apache.activemq.store.SharedFileLocker | main
+2014-10-07 01:11:46,267 | INFO  | Database C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\kahadb\lock is locked... waiting 10 seconds for the database to be unlocked. Reason: java.io.IOException: File 'C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\kahadb\lock' could not be locked. | org.apache.activemq.store.SharedFileLocker | main
+2014-10-07 01:11:56,277 | INFO  | Database C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\kahadb\lock is locked... waiting 10 seconds for the database to be unlocked. Reason: java.io.IOException: File 'C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\kahadb\lock' could not be locked. | org.apache.activemq.store.SharedFileLocker | main
+2014-10-07 01:12:06,286 | INFO  | Database C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\kahadb\lock is locked... waiting 10 seconds for the database to be unlocked. Reason: java.io.IOException: File 'C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\kahadb\lock' could not be locked. | org.apache.activemq.store.SharedFileLocker | main
+2014-10-07 01:12:16,292 | INFO  | Database C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\kahadb\lock is locked... waiting 10 seconds for the database to be unlocked. Reason: java.io.IOException: File 'C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\kahadb\lock' could not be locked. | org.apache.activemq.store.SharedFileLocker | main
+2014-10-07 01:12:36,649 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63424-1412615466480-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2014-10-07 01:12:36,657 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-10-07 01:12:36,662 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-10-07 01:12:36,667 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-10-07 01:12:36,671 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-10-07 01:12:36,745 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-10-07 01:12:36,762 | INFO  | PListStore:[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2014-10-07 01:12:36,767 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2014-10-07 01:12:36,770 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2014-10-07 01:12:36,776 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2014-10-07 01:12:37,312 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63424-1412615466480-0:1) uptime 1 minute | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2014-10-07 01:12:37,316 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63424-1412615466480-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2014-10-07 01:12:37,321 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@1a7d653: startup date [Tue Oct 07 01:11:01 SGT 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2014-10-07 01:12:37,368 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | ActiveMQ ShutdownHook
+2014-10-07 01:12:54,269 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@1a14be0: startup date [Tue Oct 07 01:12:54 SGT 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2014-10-07 01:12:57,152 | INFO  | PListStore:[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2014-10-07 01:12:57,254 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:13:10,506 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@1fcbc19: startup date [Tue Oct 07 01:13:10 SGT 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2014-10-07 01:13:13,270 | INFO  | PListStore:[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2014-10-07 01:13:13,375 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:15:08,894 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@1fcbc19: startup date [Tue Oct 07 01:15:08 SGT 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2014-10-07 01:15:11,653 | INFO  | PListStore:[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2014-10-07 01:15:11,757 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:15:13,641 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 01:15:13,734 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 01:15:13,754 | INFO  | Recovery replayed 19 operations from the journal in 0.074 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 01:15:14,032 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63436-1412615713848-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:15:17,701 | INFO  | Listening for connections at: tcp://gerrypc:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:15:17,707 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:15:17,722 | INFO  | Listening for connections at: amqp://gerrypc:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:15:17,728 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:15:17,742 | INFO  | Listening for connections at: stomp://gerrypc:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:15:17,748 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:15:17,763 | INFO  | Listening for connections at: mqtt://gerrypc:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:15:17,769 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:15:18,155 | INFO  | Listening for connections at ws://gerrypc:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2014-10-07 01:15:18,158 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:15:18,171 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63436-1412615713848-0:1) started | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:15:18,176 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:15:19,315 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2014-10-07 01:15:19,532 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2014-10-07 01:15:20,699 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
+2014-10-07 01:17:31,999 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@7c7fc2: startup date [Tue Oct 07 01:17:31 SGT 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2014-10-07 01:17:34,852 | INFO  | PListStore:[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2014-10-07 01:17:34,962 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:17:37,054 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 01:17:37,149 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 01:17:37,167 | INFO  | Recovery replayed 5 operations from the journal in 0.076 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 01:17:37,443 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63450-1412615857259-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:17:37,714 | INFO  | Listening for connections at: tcp://gerrypc:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:17:37,721 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:17:37,738 | INFO  | Listening for connections at: amqp://gerrypc:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:17:37,744 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:17:37,760 | INFO  | Listening for connections at: stomp://gerrypc:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:17:37,766 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:17:37,782 | INFO  | Listening for connections at: mqtt://gerrypc:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:17:37,787 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:17:38,195 | INFO  | Listening for connections at ws://gerrypc:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2014-10-07 01:17:38,198 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:17:38,207 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63450-1412615857259-0:1) started | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:17:38,214 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:17:38,645 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63450-1412615857259-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2014-10-07 01:17:38,654 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-10-07 01:17:38,661 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-10-07 01:17:38,666 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-10-07 01:17:38,674 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-10-07 01:17:38,755 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-10-07 01:17:38,777 | INFO  | PListStore:[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2014-10-07 01:17:38,781 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2014-10-07 01:17:38,786 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2014-10-07 01:17:38,792 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2014-10-07 01:17:39,135 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63450-1412615857259-0:1) uptime 4.239 seconds | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2014-10-07 01:17:39,139 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63450-1412615857259-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2014-10-07 01:17:39,460 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2014-10-07 01:17:39,653 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2014-10-07 01:17:40,758 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
+2014-10-07 01:17:41,320 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@7c7fc2: startup date [Tue Oct 07 01:17:31 SGT 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2014-10-07 01:17:41,376 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | ActiveMQ ShutdownHook
+2014-10-07 01:18:35,894 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@1fcbc19: startup date [Tue Oct 07 01:18:35 SGT 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2014-10-07 01:18:44,457 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@1a14be0: startup date [Tue Oct 07 01:18:44 SGT 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2014-10-07 01:18:47,424 | INFO  | PListStore:[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2014-10-07 01:18:47,527 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:18:49,620 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 01:18:49,728 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 01:18:49,753 | INFO  | Recovery replayed 1 operations from the journal in 0.092 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 01:18:50,066 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63461-1412615929869-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:18:50,336 | INFO  | Listening for connections at: tcp://gerrypc:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:18:50,344 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:18:50,361 | INFO  | Listening for connections at: amqp://gerrypc:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:18:50,367 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:18:50,382 | INFO  | Listening for connections at: stomp://gerrypc:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:18:50,388 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:18:50,403 | INFO  | Listening for connections at: mqtt://gerrypc:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:18:50,409 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:18:50,843 | INFO  | Listening for connections at ws://gerrypc:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2014-10-07 01:18:50,847 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:18:50,860 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63461-1412615929869-0:1) started | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:18:50,864 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:18:51,980 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2014-10-07 01:18:52,179 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2014-10-07 01:18:53,363 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
+2014-10-07 01:18:57,302 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63461-1412615929869-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-27
+2014-10-07 01:18:57,311 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-27
+2014-10-07 01:18:57,315 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-27
+2014-10-07 01:18:57,320 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-27
+2014-10-07 01:18:57,325 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-27
+2014-10-07 01:18:57,398 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-27
+2014-10-07 01:18:57,411 | INFO  | PListStore:[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-27
+2014-10-07 01:18:57,414 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-27
+2014-10-07 01:18:57,417 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-27
+2014-10-07 01:18:57,422 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-27
+2014-10-07 01:18:57,997 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63461-1412615929869-0:1) uptime 10.533 seconds | org.apache.activemq.broker.BrokerService | Thread-27
+2014-10-07 01:18:58,097 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63461-1412615929869-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-27
+2014-10-07 01:18:58,102 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@1a14be0: startup date [Tue Oct 07 01:18:44 SGT 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-27
+2014-10-07 01:18:58,145 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | Thread-27
+2014-10-07 01:19:12,996 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@1fcbc19: startup date [Tue Oct 07 01:19:12 SGT 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2014-10-07 01:19:15,842 | INFO  | PListStore:[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2014-10-07 01:19:15,945 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:19:29,507 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@1fcbc19: startup date [Tue Oct 07 01:19:29 SGT 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2014-10-07 01:19:32,438 | INFO  | PListStore:[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2014-10-07 01:19:55,022 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@1fcbc19: startup date [Tue Oct 07 01:19:55 SGT 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2014-10-07 01:19:57,841 | INFO  | PListStore:[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2014-10-07 01:19:57,946 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:19:59,837 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 01:19:59,930 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 01:19:59,945 | INFO  | Recovery replayed 2 operations from the journal in 0.069 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 01:20:00,224 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63475-1412616000038-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:20:00,491 | INFO  | Listening for connections at: tcp://gerrypc:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:20:00,498 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:20:00,515 | INFO  | Listening for connections at: amqp://gerrypc:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:20:00,521 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:20:00,535 | INFO  | Listening for connections at: stomp://gerrypc:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:20:00,541 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:20:00,555 | INFO  | Listening for connections at: mqtt://gerrypc:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:20:00,561 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:20:00,978 | INFO  | Listening for connections at ws://gerrypc:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2014-10-07 01:20:00,983 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:20:00,996 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63475-1412616000038-0:1) started | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:20:01,003 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:20:02,074 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2014-10-07 01:20:02,266 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2014-10-07 01:20:03,433 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
+2014-10-07 01:20:45,798 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63475-1412616000038-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2014-10-07 01:20:45,809 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-10-07 01:20:45,813 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-10-07 01:20:45,818 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-10-07 01:20:45,823 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-10-07 01:20:45,898 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2014-10-07 01:20:45,917 | INFO  | PListStore:[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2014-10-07 01:20:45,920 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2014-10-07 01:20:45,923 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2014-10-07 01:20:45,928 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2014-10-07 01:20:46,195 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63475-1412616000038-0:1) uptime 48.312 seconds | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2014-10-07 01:20:46,201 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63475-1412616000038-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2014-10-07 01:20:46,206 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@1fcbc19: startup date [Tue Oct 07 01:19:55 SGT 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2014-10-07 01:20:46,253 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | ActiveMQ ShutdownHook
+2014-10-07 01:22:07,933 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@5d7e06: startup date [Tue Oct 07 01:22:07 SGT 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2014-10-07 01:22:10,830 | INFO  | PListStore:[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2014-10-07 01:22:10,939 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:22:12,869 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 01:22:12,963 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 01:22:12,980 | INFO  | Recovery replayed 10 operations from the journal in 0.074 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 01:22:13,260 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63483-1412616133072-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:22:13,527 | INFO  | Listening for connections at: tcp://gerrypc:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:22:13,533 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:22:13,549 | INFO  | Listening for connections at: amqp://gerrypc:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:22:13,555 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:22:13,569 | INFO  | Listening for connections at: stomp://gerrypc:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:22:13,575 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:22:13,589 | INFO  | Listening for connections at: mqtt://gerrypc:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 01:22:13,595 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:22:13,998 | INFO  | Listening for connections at ws://gerrypc:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2014-10-07 01:22:14,003 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 01:22:14,015 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-63483-1412616133072-0:1) started | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:22:14,021 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2014-10-07 01:22:15,142 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2014-10-07 01:22:15,333 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2014-10-07 01:22:16,480 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
+2014-10-07 08:09:22,599 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@1a7d653: startup date [Tue Oct 07 08:09:22 SGT 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2014-10-07 08:09:23,693 | INFO  | PListStore:[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2014-10-07 08:09:23,740 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2014-10-07 08:09:24,490 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 08:09:24,521 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 08:09:24,740 | INFO  | Recovery replayed 4325 operations from the journal in 0.25 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 08:09:24,912 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-50220-1412640564771-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2014-10-07 08:09:25,037 | INFO  | Listening for connections at: tcp://gerrypc:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 08:09:25,037 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 08:09:25,037 | INFO  | Listening for connections at: amqp://gerrypc:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 08:09:25,037 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 08:09:25,053 | INFO  | Listening for connections at: stomp://gerrypc:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 08:09:25,053 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 08:09:25,053 | INFO  | Listening for connections at: mqtt://gerrypc:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 08:09:25,068 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 08:09:25,240 | INFO  | Listening for connections at ws://gerrypc:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2014-10-07 08:09:25,240 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 08:09:25,240 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-50220-1412640564771-0:1) started | org.apache.activemq.broker.BrokerService | main
+2014-10-07 08:09:25,256 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2014-10-07 08:09:25,897 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2014-10-07 08:09:25,990 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2014-10-07 08:09:26,600 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
+2014-10-07 08:13:43,039 | WARN  | Transport Connection to: tcp://127.0.0.1:50226 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:50226@61616
+2014-10-07 08:13:50,117 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-50220-1412640564771-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-27
+2014-10-07 08:13:50,117 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-27
+2014-10-07 08:13:50,117 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-27
+2014-10-07 08:13:50,117 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-27
+2014-10-07 08:13:50,117 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-27
+2014-10-07 08:13:50,185 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-27
+2014-10-07 08:13:50,186 | INFO  | PListStore:[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-27
+2014-10-07 08:13:50,186 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-27
+2014-10-07 08:13:50,186 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-27
+2014-10-07 08:13:50,186 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-27
+2014-10-07 08:13:50,389 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-50220-1412640564771-0:1) uptime 4 minutes | org.apache.activemq.broker.BrokerService | Thread-27
+2014-10-07 08:13:50,389 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-50220-1412640564771-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-27
+2014-10-07 08:13:50,404 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@1a7d653: startup date [Tue Oct 07 08:09:22 SGT 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-27
+2014-10-07 08:13:50,420 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | Thread-27
+2014-10-07 08:18:38,255 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@5d7e06: startup date [Tue Oct 07 08:18:38 SGT 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2014-10-07 08:18:43,037 | INFO  | PListStore:[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2014-10-07 08:18:43,068 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Anggacipta\Documents\GitHub\CTREX5\apache-activemq-5.10.0\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2014-10-07 08:18:43,771 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 08:18:43,802 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 08:18:43,818 | INFO  | Recovery replayed 54 operations from the journal in 0.031 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-10-07 08:18:43,974 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-49378-1412641123849-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2014-10-07 08:18:44,068 | INFO  | Listening for connections at: tcp://gerrypc:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 08:18:44,068 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 08:18:44,068 | INFO  | Listening for connections at: amqp://gerrypc:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 08:18:44,068 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 08:18:44,084 | INFO  | Listening for connections at: stomp://gerrypc:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 08:18:44,084 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 08:18:44,084 | INFO  | Listening for connections at: mqtt://gerrypc:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-10-07 08:18:44,099 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 08:18:44,271 | INFO  | Listening for connections at ws://gerrypc:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2014-10-07 08:18:44,271 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2014-10-07 08:18:44,271 | INFO  | Apache ActiveMQ 5.10.0 (localhost, ID:gerrypc-49378-1412641123849-0:1) started | org.apache.activemq.broker.BrokerService | main
+2014-10-07 08:18:44,271 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2014-10-07 08:18:44,646 | INFO  | ActiveMQ WebConsole available at http://0.0.0.0:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2014-10-07 08:18:44,740 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2014-10-07 08:18:45,115 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main

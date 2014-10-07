@@ -3,3 +3,8 @@ C:\trex\TREX_DEV\TREX.Common\bin\Debug\TREX.Common.pdb
 C:\trex\TREX_DEV\TREX.Common\obj\Debug\TREX.Common.csprojResolveAssemblyReference.cache
 C:\trex\TREX_DEV\TREX.Common\obj\Debug\TREX.Common.dll
 C:\trex\TREX_DEV\TREX.Common\obj\Debug\TREX.Common.pdb
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.Common\bin\Debug\TREX.Common.dll
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.Common\bin\Debug\TREX.Common.pdb
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.Common\obj\Debug\TREX.Common.csprojResolveAssemblyReference.cache
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.Common\obj\Debug\TREX.Common.dll
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.Common\obj\Debug\TREX.Common.pdb

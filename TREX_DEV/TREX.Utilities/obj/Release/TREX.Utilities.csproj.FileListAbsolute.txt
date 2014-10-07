@@ -1,0 +1,13 @@
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.Utilities\bin\Release\TREX.Utilities.dll
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.Utilities\bin\Release\TREX.Utilities.pdb
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.Utilities\bin\Release\Apache.NMS.ActiveMQ.dll
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.Utilities\bin\Release\Apache.NMS.dll
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.Utilities\bin\Release\TREX.Common.dll
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.Utilities\bin\Release\TREX.DAL.dll
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.Utilities\bin\Release\TREX.Entities.dll
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.Utilities\bin\Release\TREX.Common.pdb
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.Utilities\bin\Release\TREX.DAL.pdb
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.Utilities\bin\Release\TREX.Entities.pdb
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.Utilities\obj\Release\TREX.Utilities.csprojResolveAssemblyReference.cache
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.Utilities\obj\Release\TREX.Utilities.dll
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.Utilities\obj\Release\TREX.Utilities.pdb

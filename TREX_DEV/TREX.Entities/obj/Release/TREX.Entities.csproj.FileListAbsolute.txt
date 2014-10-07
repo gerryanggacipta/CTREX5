@@ -1,0 +1,4 @@
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.Entities\bin\Release\TREX.Entities.dll
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.Entities\bin\Release\TREX.Entities.pdb
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.Entities\obj\Release\TREX.Entities.dll
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.Entities\obj\Release\TREX.Entities.pdb

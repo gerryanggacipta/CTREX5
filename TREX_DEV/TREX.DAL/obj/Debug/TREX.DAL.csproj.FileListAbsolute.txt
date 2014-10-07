@@ -7,3 +7,12 @@ C:\trex\TREX_DEV\TREX.DAL\bin\Debug\TREX.Entities.pdb
 C:\trex\TREX_DEV\TREX.DAL\obj\Debug\TREX.DAL.csprojResolveAssemblyReference.cache
 C:\trex\TREX_DEV\TREX.DAL\obj\Debug\TREX.DAL.dll
 C:\trex\TREX_DEV\TREX.DAL\obj\Debug\TREX.DAL.pdb
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.DAL\bin\Debug\TREX.DAL.dll
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.DAL\bin\Debug\TREX.DAL.pdb
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.DAL\bin\Debug\TREX.Common.dll
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.DAL\bin\Debug\TREX.Entities.dll
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.DAL\bin\Debug\TREX.Common.pdb
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.DAL\bin\Debug\TREX.Entities.pdb
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.DAL\obj\Debug\TREX.DAL.csprojResolveAssemblyReference.cache
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.DAL\obj\Debug\TREX.DAL.dll
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.DAL\obj\Debug\TREX.DAL.pdb

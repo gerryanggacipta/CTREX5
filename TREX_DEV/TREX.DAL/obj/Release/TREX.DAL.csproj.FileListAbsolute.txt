@@ -1,0 +1,9 @@
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.DAL\bin\Release\TREX.DAL.dll
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.DAL\bin\Release\TREX.DAL.pdb
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.DAL\bin\Release\TREX.Common.dll
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.DAL\bin\Release\TREX.Entities.dll
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.DAL\bin\Release\TREX.Common.pdb
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.DAL\bin\Release\TREX.Entities.pdb
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.DAL\obj\Release\TREX.DAL.csprojResolveAssemblyReference.cache
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.DAL\obj\Release\TREX.DAL.dll
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.DAL\obj\Release\TREX.DAL.pdb

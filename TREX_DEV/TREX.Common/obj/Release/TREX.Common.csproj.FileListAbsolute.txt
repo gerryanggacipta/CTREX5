@@ -1,0 +1,4 @@
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.Common\bin\Release\TREX.Common.dll
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.Common\bin\Release\TREX.Common.pdb
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.Common\obj\Release\TREX.Common.dll
+C:\Users\Anggacipta\Documents\GitHub\CTREX5\TREX_DEV\TREX.Common\obj\Release\TREX.Common.pdb
